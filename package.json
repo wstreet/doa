@@ -1,8 +1,11 @@
 {
-  "name": "cli-template",
+  "name": "doa",
   "version": "1.0.0",
-  "description": "",
+  "description": "cli template",
   "main": "index.js",
+  "bin": {
+    "doa": "./bin/doa.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +13,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chalk": "^5.0.1",
     "commander": "^9.1.0",
     "debug": "^4.3.4",
-    "ini": "^2.0.0"
+    "envinfo": "^7.8.1",
+    "esm": "^3.2.25",
+    "ini": "^2.0.0",
+    "inquirer": "^9.0.2"
   }
 }
