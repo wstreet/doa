@@ -1,0 +1,18 @@
+{
+  "name": "react-ts",
+  "version": "1.0.0",
+  "description": "react template",
+  "main": "index.js",
+  "bin": {
+    "doa": "./bin/doa.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.11.0"
+  }
+}
